@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_version">Versión: </string>
+    <string name="app_name">MTKButtonLed</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="how_to">Esta aplicación se encarga de encender los leds de los botones en teléfonos con procesador MTK.\n
+        Para su correcto funcionamiento primero comprobar que los leds se pueden encender y apagar al pulsar los botones ON y OFF (solicitará 
+        permisos de superusuario ROOT, hay que concederlos).\n
+        Id a los Ajustes de android, Accesibilidad (o haced click en el botón de abajo) y activad MTKButtonLed (avisará de que la aplicación
+        es potencialmente peligrosa y podría recoger datos, pero es la forma más fiable de recoger notificaciones).\n
+        \NUna vez configurado lo anterior, es necesario indicar qué aplicaciones se van a notificar. Apretad el botón Menu de vuestro teléfono, 
+        y en las Preferencias de la aplicación, entrad al menú "Filtrar estas aplicaciones", y marcad las que queráis recibir notificaciones (
+        o activad la casilla ""Blacklist", y marcad las que no queráis recibir notificaciones). 
+        </string>
+	<string name="led_on">ON</string>
+	<string name="led_off">OFF</string>
+	<string name="accessibility_enabled">¿Activado en accesibilidad?</string>
+	<string name="led">LED</string>
+	<string name="copyright">Aplicación desarrollada por Fran @ http://fvicente.es/wordpress/?p=99</string>
+	<string name="notification_type_preference_category">Tipo de notificación</string>
+	
+	<string name="blink_cb">Parpadear</string>
+	<string name="notification_type_preference_category_summary">Activar para parpadear, desactivado el led se quedará encendido hasta que se desbloquee el teléfono. (EXPERIMENTAL)</string>
+	<string name="notify_telephone">Notificar llamadas perdidas</string>
+	<string name="notify_telephone_summary"></string>
+	<string name="notify_sms">Notificar SMS sin leer</string>
+	<string name="notify_sms_summary">Expermiental, si da problemas, desactivarlo.</string>
+	
+	<string name="main_cb_showOnlyLogApps">Mostrar sólo aplicaciones reconocidas (al configurar)</string>
+	
+	<string name="check_updates">Comprobar Actualizaciones</string>
+	<string name="checking_updates">Comprobando actualizaciones, espere por favor.</string>
+	<string name="update_available">Actualización disponible, haga click en el enlace que hay en la parte inferior de la pantalla principal y descárguela.</string>
+	<string name="update_not_available">No existen nuevas versiones.</string>
+	<string name="error_checking_updates">Error al comprobar actualizaciones</string>
+	<string name="error_log_not_found">Error log not found</string>
+	<string name="updated_toast">Actualizado correctamente. Por favor comprueba que la aplicación sigue teniendo permisos ROOT (haciendo click en los botones ON/OFF), y permisos en accesibilidad.</string>
+	
+	<string name="filter_type_category">Opciones de filtrado</string>
+	<string name="filter_by_blacklist">Filtrar por "Blacklist"</string>
+	<string name="filter_by_blacklist_summary">Seleccionar, para filtrar las aplicaciones seleccionadas para evitar que enciendan el led. Deseleccionar para el caso contrario, sólo mostrar notificaciones de las aplicaciones seleccionadas.</string>
+	<string name="filter_packages_title">Filtrar estas aplicaciones</string>
+	<string name="filter_packages_summary">La lista se construye capturando las notificaciones nuevas, así que hasta que una aplicación no lance una notificación no aparecerá en la lista.</string>
+	<string name="filter_whatsapp_groups_title">No notificar grupos de Whatsapp</string>
+	<string name="filter_whatsapp_groups_summary">Filtra las notificaciones de Whatsapp con " @ ", como los grupos, pero si tienes un contacto con esa secuencia tampoco lo notificará!</string>
+</resources>

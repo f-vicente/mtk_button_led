@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="notification_type"
+        android:title="@string/notification_type_preference_category" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="blink"
+            android:summary="@string/notification_type_preference_category_summary"
+            android:title="@string/blink_cb" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notifyTelephone"
+            android:summary="@string/notify_telephone_summary"
+            android:title="@string/notify_telephone" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notifySMS"
+            android:summary="@string/notify_sms_summary"
+            android:title="@string/notify_sms" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="filter_type_category"
+        android:title="@string/filter_type_category" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="filter_by_blacklist"
+            android:summary="@string/filter_by_blacklist_summary"
+            android:title="@string/filter_by_blacklist" />
+	    android:key="filter_packages_category">
+        <MultiSelectListPreference
+            android:entries="@array/filter_packages_entries"
+            android:entryValues="@array/filter_packages_values"
+            android:defaultValue="@array/filter_packages_default_values"
+            android:key="filter_list"
+            android:persistent="true"
+            android:summary="@string/filter_packages_summary"
+            android:title="@string/filter_packages_title" />
+        <CheckBoxPreference 
+            android:defaultValue="false"
+            android:key="filter_whatsapp_groups"
+            android:title="@string/filter_whatsapp_groups_title"
+            android:summary="@string/filter_whatsapp_groups_summary"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

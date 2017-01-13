@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_version">Versión: </string>
+    <string name="app_name">MTKButtonLed</string>
+    <string name="action_settings">Settings</string>
+    <string name="how_to">This application turns on the LED of the buttons of your phone.\n
+        First check that the buttons can be turned on/off with the buttons (it will request ROOT, as is needed to make this).\n
+        Then go to the Accessibility settings (or click the button down), and turn on MTKButtonLed (it will advise that it could be dangerous, but is the best way to catch notifications).\n
+        And that\'s all, when you turn off the screen, the buttons will light when a new notification occurs.\n
+        </string>
+	<string name="led_on">ON</string>
+	<string name="led_off">OFF</string>
+	<string name="accessibility_enabled">Activate in Accessibility</string>
+	<string name="led">LED</string>
+	<string name="copyright">App by Fran @ http://fvicente.es/wordpress/?p=99</string>
+	
+	<string name="notification_type_preference_category">Notification type</string>
+	<string name="blink_cb">Blinking Led</string>
+	<string name="notification_type_preference_category_summary">On to blink, off to keep the led on until the screen is unlocked. (EXPERIMENTAL, for better results leave off)</string>
+	<string name="notify_telephone">Notify missed calls</string>
+	<string name="notify_telephone_summary"></string>
+	<string name="notify_sms">Notify unread SMS</string>
+	<string name="notify_sms_summary">Not tested&#8230;</string>
+	
+	<string name="main_cb_showOnlyLogApps">Show only logged Apps in configuration</string>
+	
+	<string name="check_updates">Check Updates</string>
+	<string name="checking_updates">Cheking updates, please wait&#8230;</string>
+	<string name="update_available">Update available, please download from the link that appears on the low part of the main screen.</string>
+	<string name="update_not_available">No new versions released</string>
+	<string name="error_checking_updates">Error while checking updates</string>
+	<string name="error_log_not_found">Error log not found</string>
+	<string name="updated_toast">Updated correctly. Please check that the app have ROOT permissions (by clicking the ON/OFF button), and Accessibility Service permissions.</string>
+	
+	<string name="filter_type_category">Filtering options</string>
+	<string name="filter_by_blacklist">Filter by blacklist</string>
+	<string name="filter_by_blacklist_summary">On to disable the selected packages\' notifications, Off to only allow notifications from selected packages.</string>
+	<string name="filter_packages_title">Filter this packages</string>
+	<string name="filter_packages_summary">The application gets this list from loggin the notifications, so you will have to wait to receive at least one notification from each application you want to filter.</string>
+	<string name="filter_whatsapp_groups_title">Do not notify Whatsapp group messages</string>
+	<string name="filter_whatsapp_groups_summary">It filters Whatsapp notifications with " @ ", so if you have a contact with that name will also be filtered</string>
+</resources>

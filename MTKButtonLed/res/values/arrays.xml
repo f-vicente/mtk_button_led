@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter_packages_entries">
+        <!-- <item>Music Player</item>
+        <item>Android system</item>
+        <item>Play Store</item>
+        <item>Downloads</item>
+        <item>System UI</item>
+		<item>Play Music</item>-->
+    </string-array>
+    <string-array name="filter_packages_values">
+        <!-- <item>com.android.music</item>
+        <item>android</item>
+        <item>com.android.vending</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.systemui</item>
+		<item>com.google.android.music</item> -->
+    </string-array>
+    <string-array name="filter_packages_default_values" translatable="false">
+        <item>com.facebook.katana</item>
+        <item>com.google.android.calendar</item>
+        <item>com.whatsapp</item>
+        <item>com.google.android.gm</item>
+    </string-array>
+</resources>
